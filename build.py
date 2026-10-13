@@ -26,7 +26,7 @@ def page(fname, title, desc, body):
 {body}
 </main>
 <footer class="site-footer"><div class="wrap">
-<div>© 2026 EvereSoft · Fresno, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></div>
+<div>© 2026 EvereSoft · Madera, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></div>
 <nav aria-label="Legal"><ul><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="refunds.html">Refunds</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
 </div></footer>
 </body>
@@ -101,11 +101,11 @@ f"""<div class="hero"><div class="wrap">
 """)
 
 # ---------- Contact ----------
-page("contact.html", "Contact — EvereSoft", "Contact EvereSoft, Fresno, California, USA.",
+page("contact.html", "Contact — EvereSoft", "Contact EvereSoft, Madera, California, USA.",
 f"""<div class="hero"><div class="wrap"><h1>Contact EvereSoft</h1><p>Questions, support, billing or refund requests: email us and we'll usually reply within 2 business days.</p></div></div>
 <section><div class="wrap"><div class="grid">
 <div class="card"><h3>Email</h3><p><a href="mailto:{EMAIL}">{EMAIL}</a></p><p class="muted small">For subscription and refund requests, please include the email address you used at checkout.</p></div>
-<div class="card"><h3>Business</h3><p>EvereSoft<br>Owner: Garrett Johnson (sole proprietor)<br>Fresno, California, USA</p></div>
+<div class="card"><h3>Business</h3><p>EvereSoft<br>Madera, California, USA</p></div>
 </div></div></section>
 """)
 
@@ -134,7 +134,7 @@ f"""<section><div class="wrap prose">
 <h2>Children</h2><p>Our products are not directed at children under 13.</p>
 <h2>Your choices and requests</h2><p>For questions or a privacy request (for example under the California Consumer Privacy Act), email <a href="mailto:{EMAIL}">{EMAIL}</a>. We don't sell or share personal information.</p>
 <h2>Changes</h2><p>If we change this policy, we'll post the update here with a new date.</p>
-<h2>Contact</h2><p>EvereSoft, Fresno, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<h2>Contact</h2><p>EvereSoft, Madera, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 </div></section>
 """)
 
@@ -143,7 +143,7 @@ page("terms.html", "Terms of Service — EvereSoft", "Terms of Service for Evere
 f"""<section><div class="wrap prose">
 <h1>Terms of Service</h1>
 <p class="muted">Last updated: October 13, 2026</p>
-<p>These terms apply when you use software from EvereSoft, a sole proprietorship owned by Garrett Johnson in Fresno, California, USA ("EvereSoft", "we", "us"). That includes TabTape, Reject Cookies, and any paid plans ("Pro"). By installing or using our software, you agree to these terms.</p>
+<p>These terms apply when you use software from EvereSoft, based in Madera, California, USA ("EvereSoft", "we", "us"). That includes TabTape, Reject Cookies, and any paid plans ("Pro"). By installing or using our software, you agree to these terms.</p>
 <h2>1. License</h2><p>We grant you a personal, non-exclusive, non-transferable license to use our software for lawful purposes. You may not resell it, reverse engineer it beyond what the law allows, or remove notices. Open-source components are covered by their own licenses, which are included with the software.</p>
 <h2>2. Free and paid plans</h2><p>Some features are free. Pro features need a paid subscription. Current prices are on each product page and are in US dollars. Taxes may apply depending on where you live.</p>
 <h2>3. Billing and renewal</h2><p>Subscriptions are billed in advance, monthly or yearly, through our payment providers ExtensionPay and Stripe. They <strong>renew automatically</strong> at the then-current price until you cancel. If we change a price, we'll give you notice before it applies to your next renewal.</p>
@@ -154,9 +154,9 @@ f"""<section><div class="wrap prose">
 <h2>8. Disclaimer</h2><p>The software is provided "as is" and "as available". To the fullest extent the law allows, we disclaim warranties of merchantability, fitness for a particular purpose and non-infringement. Transcriptions may contain errors, and you should review important output. Keep your own backups of important recordings.</p>
 <h2>9. Limitation of liability</h2><p>To the fullest extent the law allows, EvereSoft is not liable for indirect, incidental, special or consequential damages, or for lost data or profits. Our total liability for any claim is limited to the amount you paid us in the 12 months before the claim.</p>
 <h2>10. Termination</h2><p>You may stop using the software at any time. We may suspend a license that is used in serious violation of these terms.</p>
-<h2>11. Governing law</h2><p>These terms are governed by the laws of the State of California, USA, without regard to its conflict-of-law rules. Disputes will be handled in the state or federal courts located in Fresno County, California, unless the law where you live requires otherwise.</p>
+<h2>11. Governing law</h2><p>These terms are governed by the laws of the State of California, USA, without regard to its conflict-of-law rules. Disputes will be handled in the state or federal courts located in Madera County, California, unless the law where you live requires otherwise.</p>
 <h2>12. Changes</h2><p>We may update these terms and will post the new version here with a new date. Continuing to use the software after a change means you accept the updated terms.</p>
-<h2>13. Contact</h2><p>EvereSoft, Fresno, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<h2>13. Contact</h2><p>EvereSoft, Madera, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 </div></section>
 """)
 
@@ -175,7 +175,7 @@ f"""<section><div class="wrap prose">
 <li>When a charge is refunded, Pro access for that period may end.</li></ul>
 <h2>How to request a refund</h2><p>Email <a href="mailto:{EMAIL}">{EMAIL}</a> with your checkout email address, the date of the charge and (optionally) the reason. We usually reply within 2 business days.</p>
 <h2>Free plan</h2><p>The free plan costs nothing and needs no cancellation. Just uninstall the extension.</p>
-<h2>Contact</h2><p>EvereSoft, Fresno, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<h2>Contact</h2><p>EvereSoft, Madera, California, USA · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 </div></section>
 """)
 
