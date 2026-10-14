@@ -45,8 +45,9 @@ f"""<div class="hero"><div class="wrap">
 <section><div class="wrap">
 <h2>Products</h2>
 <div class="grid">
-<article class="card"><div class="top"><img src="assets/img/tabtape-128.png" alt="TabTape icon" width="56" height="56"><div><h3>TabTape <span class="badge soon">Coming soon</span></h3><div class="muted small">Chrome extension</div></div></div>
+<article class="card"><div class="top"><img src="assets/img/tabtape-128.png" alt="TabTape icon" width="56" height="56"><div><h3>TabTape <span class="badge">Now on Chrome Web Store</span></h3><div class="muted small">Chrome extension</div></div></div>
 <p>Record any tab's audio in one click and transcribe it privately on your device. Export MP3 or WebM. Free plan, with an optional Pro subscription.</p>
+<div class="btns"><a class="btn" href="https://chromewebstore.google.com/detail/tabtape-record-tab-audio/dddiogncmbeimnjbfdombeapofghjjop" target="_blank" rel="noopener">Add to Chrome</a></div>
 <a href="tabtape.html">Learn more and see pricing →</a></article>
 <article class="card"><div class="top"><img src="assets/img/everesoft-mark.svg" alt="" width="56" height="56"><div><h3>Reject Cookies <span class="badge soon">Coming soon</span></h3><div class="muted small">Chrome extension · Free</div></div></div>
 <p>Automatically clicks "reject" on cookie consent banners, and never accepts. Runs entirely in your browser, built on open-source consent rules.</p>
@@ -74,7 +75,7 @@ f"""<div class="hero"><div class="wrap">
 <div class="top" style="display:flex;gap:16px;align-items:center;margin-bottom:12px"><img src="assets/img/tabtape-128.png" alt="TabTape icon" width="72" height="72"><span class="badge">Chrome extension by EvereSoft</span></div>
 <h1>TabTape: record tab audio and transcribe it privately</h1>
 <p>TabTape records the audio of any browser tab in one click and turns it into text on your computer. Use it for online lectures, webinars, podcasts, interviews and meetings that run in the browser.</p>
-<div class="btns"><a class="btn" aria-disabled="true" role="link" title="Not published yet">Chrome Web Store: coming soon</a><a class="btn alt" href="#pricing">Pricing</a></div>
+<div class="btns"><a class="btn" href="https://chromewebstore.google.com/detail/tabtape-record-tab-audio/dddiogncmbeimnjbfdombeapofghjjop" target="_blank" rel="noopener">Get TabTape on the Chrome Web Store</a><a class="btn alt" href="#pricing">Pricing</a></div>
 </div></div>
 <section><div class="wrap"><div class="grid">
 <div class="card"><h3>Record</h3><ul><li>One click records the current tab's audio. You keep hearing the tab while it records.</li><li>Optionally mix in your microphone.</li><li>Crash-safe: audio is saved to your device every second.</li><li>Keyboard shortcut: Alt+Shift+R.</li></ul></div>
